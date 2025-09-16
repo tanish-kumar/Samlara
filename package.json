@@ -1,0 +1,37 @@
+{
+  "name": "samlara-fullshop",
+  "version": "1.0.0",
+  "description": "SamLara eCommerce single-folder with checkout and orders",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.1",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.7.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.18",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-session": "^1.17.3",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.18.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^6.9.13",
+    "pm2": "^6.0.10",
+    "sharp": "^0.34.3",
+    "socket.io": "^4.8.1",
+    "uuid": "^13.0.0",
+    "validator": "^13.15.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
