@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - SamLara T-Shirts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <link rel="shortcut icon" href="assets/SAMLARA LOGO_BLACK.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .section-title {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .section-title::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 5px;
+            background-color: #4c51bf;
+            border-radius: 3px;
+        }
+
+        h2 {
+            scroll-margin-top: 100px;
+        }
+
+        .nav-link.active {
+            color: #4c51bf;
+            font-weight: 600;
+        }
+
+        .nav-link.active::before {
+            content: '•';
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+
+        .hover-underline {
+            position: relative;
+        }
+
+        .hover-underline::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #4c51bf;
+            transform: scaleX(0);
+            transition: transform 0.25s ease;
+        }
+
+        .hover-underline:hover::after {
+            transform: scaleX(1);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="flex-shrink-0 flex items-center">
+                        <img src="assets/SAMLARA LOGO_BLACK.png"
+                            alt="SamLara logo - abstract geometric logo with blue and white colors"
+                            class="h-8 w-auto mr-2">
+                        <span class="text-xl font-bold text-gray-800 hidden sm:block">SamLara</span>
+                    </a>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="index.html"
+                        class="text-gray-800 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition">Home</a>
+                </div>
+               
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="lg:flex">
+            <!-- Sidebar Navigation -->
+            <div class="lg:w-1/4 lg:pr-8 mb-8 lg:mb-0">
+                <div class="bg-white p-6 rounded-lg shadow-sm sticky top-28">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Quick Links</h2>
+                    <ul class="space-y-3">
+                        <li><a href="#terms"
+                                class="nav-link text-gray-700 hover:text-indigo-600 transition hover-underline">Terms of
+                                Service</a></li>
+                        <li><a href="#ordering"
+                                class="nav-link text-gray-700 hover:text-indigo-600 transition hover-underline">Ordering
+                                Process</a></li>
+                        <li><a href="#shipping"
+                                class="nav-link text-gray-700 hover:text-indigo-600 transition hover-underline">Shipping
+                                Policy</a></li>
+                        <li><a href="#returns"
+                                class="nav-link text-gray-700 hover:text-indigo-600 transition hover-underline">Return
+                                Policy</a></li>
+                        <li><a href="#privacy"
+                                class="nav-link text-gray-700 hover:text-indigo-600 transition hover-underline">Privacy
+                                Policy</a></li>
+                        <li><a href="#contact"
+                                class="nav-link text-gray-700 hover:text-indigo-600 transition hover-underline">Contact
+                                Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="lg:w-3/4">
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <h1 class="text-3xl font-bold text-gray-800 mb-2">Terms & Conditions</h1>
+                    <p class="text-gray-600 mb-8">Last updated: <span id="currentDate"></span></p>
+
+                    <!-- Terms of Service -->
+                    <section id="terms" class="mb-12">
+                        <div class="prose max-w-none text-gray-600">
+                            <h3 class="text-xl font-semibold mb-4 text-gray-800">Welcome to SamLara</h3>
+                            <p>By accessing or using our website and purchasing our products, you agree to these Terms &
+                                Conditions. Please read them carefully.</p>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Account Registration</h4>
+                            <p>Creating an account is optional but recommended for faster checkout. When you create an
+                                account, you agree to:</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-2">
+                                <li>Provide accurate and current information</li>
+                                <li>Keep your password secure</li>
+                                <li>Notify us immediately of any unauthorized account activity</li>
+                            </ul>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Governing Law</h4>
+                            <p>These terms shall be governed by and construed in accordance with the laws of India.</p>
+                        </div>
+                    </section>
+
+                    <!-- Ordering Process -->
+                    <section id="ordering" class="mb-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 section-title">Ordering Process</h2>
+                        <div class="prose max-w-none text-gray-600">
+                            <h4 class="text-lg font-semibold mb-3 text-gray-800">How to Order</h4>
+                            <ol class="list-decimal pl-5 space-y-2">
+                                <li>Browse products and add items to your cart</li>
+                                <li>Proceed to checkout when ready</li>
+                                <li>Enter shipping and payment information</li>
+                                <li>Review and confirm your order</li>
+                                <li>Receive order confirmation via email</li>
+                            </ol>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Pricing & Payments</h4>
+                            <p>All prices are in Indian Rupees (₹) and inclusive of all applicable taxes. We accept:</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-2">
+                                <li>Credit/Debit Cards (Visa, Mastercard, RuPay)</li>
+                                <li>UPI Payments</li>
+                                <li>Net Banking</li>
+                                <li>Wallet Payments (PayTM, PhonePe, etc.)</li>
+                            </ul>
+                            <p class="mt-2">Your account will be charged when your order is confirmed.</p>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Order Changes & Cancellations</h4>
+                            <p>Contact us immediately via WhatsApp or email if you need to change or cancel your order.
+                                Changes may be possible if your order hasn't shipped yet.</p>
+                        </div>
+                    </section>
+
+                    <!-- Shipping Policy -->
+                    <section id="shipping" class="mb-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 section-title">Shipping Policy</h2>
+                        <div class="prose max-w-none text-gray-600">
+                            <h4 class="text-lg font-semibold mb-3 text-gray-800">Processing Time</h4>
+                            <p>Orders typically ship within 1-2 business days (excluding Sundays and holidays). During
+                                festivals or sale periods, processing may take 4-5 business days.</p>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Domestic Shipping</h4>
+                            <div class="overflow-x-auto">
+                                <table class="min-w-full mt-4 border">
+                                    <thead class="bg-gray-100">
+                                        <tr>
+                                            <th class="px-4 py-2 text-left">Service</th>
+                                            <th class="px-4 py-2 text-left">Delivery Time</th>
+                                            <th class="px-4 py-2 text-left">Cost</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="border-t">
+                                            <td class="px-4 py-3">Standard (Delhivery/Blue Dart)</td>
+                                            <td class="px-4 py-3">4-6 business days</td>
+                                            <td class="px-4 py-3">₹49 (Free over ₹799)</td>
+                                        </tr>
+                                        <tr class="border-t">
+                                            <td class="px-4 py-3">Express (Bluedart/Aramex)</td>
+                                            <td class="px-4 py-3">2-3 business days</td>
+                                            <td class="px-4 py-3">₹120</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Cash on Delivery</h4>
+                            <p>Available for most locations with additional ₹50 charge. Maximum COD order value:
+                                ₹5,000.</p>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">International Shipping</h4>
+                            <p>Available to select countries through DHL/FedEx. Shipping costs calculated at checkout.
+                                Customers are responsible for all customs/duties fees.</p>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Order Tracking</h4>
+                            <p>You'll receive tracking information via SMS/WhatsApp/email when your order ships.
+                                Tracking typically updates within 12 hours.</p>
+                        </div>
+                    </section>
+
+                    <!-- Return Policy -->
+                    <section id="returns" class="mb-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 section-title">Return Policy</h2>
+                        <div class="prose max-w-none text-gray-600">
+                            <h4 class="text-lg font-semibold mb-3 text-gray-800">Our Policy</h4>
+                            <p>We accept returns within 3 days of delivery. Items must be:</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-2">
+                                <li>Unworn and unwashed</li>
+                                <li>In original condition with tags attached</li>
+                                <li>In original packaging</li>
+                            </ul>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">How to Return</h4>
+                            <ol class="list-decimal pl-5 space-y-2">
+                                <li>Log in to your account</li>
+                                <li>Go to "My Orders"</li>
+                                <li>Select "Return" for the item</li>
+                                <li>We'll arrange free pickup (for prepaid orders)</li>
+                                <li>For COD returns, please ship via India Post</li>
+                            </ol>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Refund Process</h4>
+                            <p>Refunds are issued to your original payment method within 7-10 business days after we
+                                receive and inspect your return.</p>
+                            <p class="mt-2">For COD returns, refunds will be processed via bank transfer (Please provide
+                                IFSC code and account details).</p>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Exchanges</h4>
+                            <p>For size exchanges, please return the original item and place a new order for the desired
+                                size.</p>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Defective Products</h4>
+                            <p>For defective items, please contact us within 48 hours of receipt at returns@samlara.com
+                                with photos/video of the issue.</p>
+                        </div>
+                    </section>
+
+                    <!-- Privacy Policy -->
+                    <section id="privacy" class="mb-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 section-title">Privacy Policy</h2>
+                        <div class="prose max-w-none text-gray-600">
+                            <h4 class="text-lg font-semibold mb-3 text-gray-800">Information Collection</h4>
+                            <p>We collect information as per India's Information Technology Act, 2000 and SPDI Rules:
+                            </p>
+                            <ul class="list-disc pl-5 mt-2 space-y-2">
+                                <li>Name, address, contact details</li>
+                                <li>Payment information (processed securely via Razorpay/PayU)</li>
+                                <li>Order history</li>
+                                <li>Device and browsing information</li>
+                            </ul>
+
+                            <h4 class="text-lg font-semibold mt-6 mb-3 text-gray-800">Data Protection</h4>
+                            <p>We implement reasonable security practices as per Indian laws to protect your
+                                information.</p>
+                        </div>
+                    </section>
+
+                    <!-- Contact Us -->
+                    <section id="contact">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 section-title">Contact Us</h2>
+                        <div class="prose max-w-none text-gray-600">
+                            <h4 class="text-lg font-semibold mb-3 text-gray-800">Customer Support</h4>
+                            <p>We're available 9AM-10PM IST (Monday-Sunday):</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-2">
+                                <li>Email: support@samlara.com</li>
+                                <li>WhatsApp: +91 9915861370</li>
+                                <li>Phone: +91 9115717107</li>
+                                <li>Address: SamLara Fashion Pvt Ltd, Chandigarh, India - 160002</li>
+                            </ul>
+                          
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="assets/SAMALARA LOGO_1.png" alt="SamLara logo mark" class="h-8 w-auto mr-2">
+                    <span class="text-xl font-bold">SamLara</span>
+                </div>
+
+                <div class="text-gray-400 text-sm">
+                    © <span id="currentYear"></span> SamLara Fashion Pvt Ltd. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current date and year
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('currentDate').textContent = new Intl.DateTimeFormat('en-IN', options).format(now);
+        document.getElementById('currentYear').textContent = now.getFullYear();
+
+        // Smooth scrolling with active link highlight
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Remove active class from all links
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+
+                // Add active class to clicked link
+                this.classList.add('active');
+
+                // Scroll to section
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 120,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Highlight active section based on scroll
+        window.addEventListener('scroll', function () {
+            const sections = document.querySelectorAll('section');
+            const scrollPosition = window.scrollY + 150;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    const id = section.getAttribute('id');
+                    document.querySelectorAll('.nav-link').forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${id}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
