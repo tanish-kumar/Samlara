@@ -171,7 +171,7 @@ const SEED_MODE = true; // ✅ Development ke liye true rakho, Production me fal
         name: "Off White “Believe” T shirt",
         price: 498,
         image: "/assets/OFF WHITE Biliv6545.jpg",
-        images:"/assets/OFF WHITE Biliv6545.jpg",
+        images:"/assets/OFF WHITE Biliv6546.jpg",
         tag: "NEW",
         sizes: ["S", "M", "L", "XL"],
         desc: "Classic crew neck cut, relaxed fit, off white base colour with bold “BELIEVE” typography print across chest. Sleeve ribbing, double stitched hem. Casual everyday streetwear style. Fabric 100% heavy weight combed cotton; soft inner side, breathable but substantial, non see through.",
